@@ -7,8 +7,8 @@
 	"hash": "8261d7707c75f94b016d202e61861e6897920a095d1e396c803ada7b323d5dd2",
 	"bin": "buttery-taskbar.exe",
 	"checkver": {
-		"url": "https://raw.githubusercontent.com/CrypticButter/ScoopBucket/master/bucket/buttery-taskbar.json",
-		"regex": "^\\s*{\\s*\"version\":\\s*\"([\\d.]+)\"",
+		"url": "https://raw.githubusercontent.com/CrypticButter/ScoopBucket/master/versions.txt",
+		"regex": "^buttery_taskbar_latest_version\\s+([\\d.]+)$",
 	},
 	"autoupdate": {
 		"url": "https://github.com/LuisThiamNye/ButteryTaskbar2/releases/download/$version/buttery-taskbar.exe"
