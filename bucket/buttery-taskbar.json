@@ -8,7 +8,7 @@
 	"bin": "buttery-taskbar.exe",
 	"checkver": {
 		"url": "https://raw.githubusercontent.com/CrypticButter/ScoopBucket/master/versions.txt",
-		"regex": "^buttery_taskbar_latest_version\\s+([\\d.]+)$",
+		"regex": "^buttery_taskbar_latest_version\\s+([\\d.]+)$"
 	},
 	"autoupdate": {
 		"url": "https://github.com/LuisThiamNye/ButteryTaskbar2/releases/download/$version/buttery-taskbar.exe"
